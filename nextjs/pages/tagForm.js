@@ -6,7 +6,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import Tags from './tagSelect';
 
-export default function PaymentForm() {
+export default function tagForm() {
   return (
     <React.Fragment>
       <Typography variant="h6" gutterBottom>
