@@ -17,10 +17,7 @@
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
     "@next/font": "latest",
-    "firebase": "^9.14.0",
-    "firebaseui": "^6.0.2",
     "next": "^13.0.4",
-    "next-firebase-auth": "^0.14.4",
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest"
