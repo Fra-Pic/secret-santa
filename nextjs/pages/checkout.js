@@ -12,8 +12,8 @@ import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import nameForm from './nameForm';
-import tagForm from './tagForm';
+import NameForm from './NameForm';
+import TagForm from './TagForm';
 import Review from './Review';
 
 
@@ -35,9 +35,9 @@ const steps = ['Registrazione', 'Scelta Interesse', 'Riepilogo'];
 function getStepContent(step) {
   switch (step) {
     case 0:
-      return <nameForm />;
+      return <NameForm />;
     case 1:
-      return <tagForm />;
+      return <TagForm />;
     case 2:
       return <Review />;
     default:
